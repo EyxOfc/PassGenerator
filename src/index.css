@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Mona';
+    src: url('./Fontes/Mona.otf');
+}
+
+@font-face {
+    font-family: 'Hubot';
+    src: url('./Fontes/Hubot.otf');
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    appearance: none;
+}
+
+html , body , #root {
+    height: 100%;
+    width: 100%;
+}
