@@ -12,7 +12,7 @@ function Input({Number, changeNumberInInput}) {
                 max={12} 
                 min={4}
                 onChange={changeNumberInInput}
-                className='transition .3s block w-[130px] h-[35px] mx-auto my-[15px] font-Mona text-center bg-slate-100 rounded-sm shadow-md hover:shadow-xl'
+                className='transition .3s block w-[130px] sm:scale-[1.2] h-[35px] mx-auto my-[15px] font-Mona text-center bg-gradient-to-tr from-[#fff] via-slate-100 to-slate-100 rounded-sm shadow-md hover:shadow-xl'
             />
         </>
     );
